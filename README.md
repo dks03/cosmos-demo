@@ -1,5 +1,9 @@
 # cosmos-demo
 
+>Note: **Tested this setup on Cosmos DB Emulator for Windows**
+
+
+
 **Download the cosmos db emulator from [here](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-develop-emulator?tabs=windows%2Ccsharp&pivots=api-nosql)**
 
 **VM Args for certificates**
