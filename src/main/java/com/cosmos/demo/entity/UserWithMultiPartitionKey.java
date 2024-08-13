@@ -12,6 +12,7 @@ import lombok.Data;
 @Data
 @Builder
 public class UserWithMultiPartitionKey {
+    // unique key added using columns -- firstName, lastName and email -- while creating container
     @Id
     private String id;
     private String firstName;
