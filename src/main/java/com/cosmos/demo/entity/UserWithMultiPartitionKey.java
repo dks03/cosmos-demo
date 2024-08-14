@@ -8,7 +8,7 @@ import lombok.Builder;
 import lombok.Data;
 
 @Container(containerName = "user_multi_part_key", autoCreateContainer = false,
-                hierarchicalPartitionKeyPaths = { "city", "/country" })
+                hierarchicalPartitionKeyPaths = { "/city", "/country" })
 @Data
 @Builder
 public class UserWithMultiPartitionKey {
